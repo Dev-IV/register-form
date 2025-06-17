@@ -15,18 +15,18 @@
   </head>
   <body>
     <div class="wrapper">
-      <form action="">
+      <form action="" id="wrapper">
         <h1>Login</h1>
         <div class="input-box">
-          <input type="text" placeholder="Username" required />
+          <input type="text" placeholder="Username" id="username" name="username" required />
           <img src="icons/people.png" alt="user" />
         </div>
         <div class="input-box">
-          <input type="text" placeholder="Password" required />
+          <input type="text" placeholder="Password" id="password" name="password" required />
           <img src="icons/padlock.png" alt="lock" />
         </div>
         <div class="remember">
-          <label for=""><input type="checkbox" /> Remember me</label>
+          <label for=""><input type="checkbox" id="remember" name="remember" /> Remember me</label>
           <a href="#">Forgot password</a>
         </div>
         <button type="submit" class="btn">Login</button>
@@ -35,5 +35,6 @@
         </div>
       </form>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
